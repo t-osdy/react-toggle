@@ -43,7 +43,7 @@ class Toggle extends Component {
           rx={height/2} ry={height/2}
           fill={colors.background}
         />
-        <Motion style={{cx: spring(circlePosition, {stiffness: 400, damping: 27})}}>
+        <Motion style={{cx: spring(circlePosition, {stiffness: 600, damping: 5})}}>
           {({cx}) => 
             <circle
               cx={cx}
