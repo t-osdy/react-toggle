@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import { Render } from './Toggle'
 import './index.css'
 
 ReactDOM.render(
-  <App />, 
+  <Render />, 
   document.getElementById('root')
 )
